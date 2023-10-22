@@ -12,7 +12,7 @@ const privateRouter = require('./routes/private.routes');
 
 const app = express();
 
-//Server Security Middlewre
+//Server Security Middleware
 app.use(cors());
 app.use(helmet());
 app.use((req, res, next) => {
